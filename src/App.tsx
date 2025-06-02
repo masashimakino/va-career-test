@@ -526,7 +526,7 @@ const VACareerTest: React.FC = () => {
               🌟 あなたにぴったりの働き方を見つけましょう！ 🌟
             </p>
             <p className="text-xs sm:text-sm text-gray-500">
-              Ver 3.0 - 完全版
+              Ver 1.0 - Global Work Design
             </p>
           </div>
 
