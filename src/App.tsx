@@ -506,7 +506,7 @@ const VACareerTest: React.FC = () => {
   if (currentStep === 'start') {
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-50 to-blue-100 flex items-center justify-center p-3 sm:p-4 lg:p-8">
-        <div className="bg-white rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 lg:p-8 max-w-sm sm:max-w-lg lg:max-w-2xl w-full relative overflow-hidden">
+        <div className="bg-white rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 lg:p-8 xl:p-12 max-w-sm sm:max-w-lg lg:max-w-4xl xl:max-w-6xl w-full relative overflow-hidden">
           {/* 背景装飾 - レスポンシブサイズ */}
           <div className="absolute top-0 right-0 w-20 h-20 sm:w-24 sm:h-24 lg:w-32 lg:h-32 bg-gradient-to-bl from-yellow-200 to-orange-200 rounded-full opacity-20 -translate-y-10 translate-x-10 sm:-translate-y-12 sm:translate-x-12 lg:-translate-y-16 lg:translate-x-16"></div>
           <div className="absolute bottom-0 left-0 w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-gradient-to-tr from-blue-200 to-purple-200 rounded-full opacity-20 translate-y-8 -translate-x-8 sm:translate-y-10 sm:-translate-x-10 lg:translate-y-12 lg:-translate-x-12"></div>
@@ -586,7 +586,7 @@ const VACareerTest: React.FC = () => {
 
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-50 to-blue-100 p-3 sm:p-4 lg:p-8">
-        <div className="max-w-sm sm:max-w-2xl lg:max-w-4xl mx-auto">
+        <div className="max-w-sm sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl mx-auto">
           {/* プログレスバー - レスポンシブ */}
           <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-4 sm:mb-6 shadow-lg border border-purple-100">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-3 space-y-1 sm:space-y-0">
@@ -610,7 +610,7 @@ const VACareerTest: React.FC = () => {
           </div>
 
           {/* 質問カード - 完全レスポンシブ */}
-          <div className="bg-white rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 lg:p-8 relative overflow-hidden border border-purple-100">
+          <div className="bg-white rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 lg:p-8 xl:p-12 relative overflow-hidden border border-purple-100">
             {/* 背景装飾 */}
             <div className="absolute top-0 right-0 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-gradient-to-bl from-yellow-200 to-orange-200 rounded-full opacity-10 -translate-y-6 translate-x-6 sm:-translate-y-8 sm:translate-x-8 lg:-translate-y-10 lg:translate-x-10"></div>
             
@@ -702,7 +702,7 @@ const VACareerTest: React.FC = () => {
 
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-50 to-blue-100 p-3 sm:p-4 lg:p-8">
-        <div className="max-w-sm sm:max-w-2xl lg:max-w-4xl mx-auto">
+        <div className="max-w-sm sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl mx-auto">
           {/* 結果ヘッダー - レスポンシブ */}
           <div className="bg-white rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 relative overflow-hidden border border-purple-100">
             {/* 背景装飾 */}
@@ -768,7 +768,7 @@ const VACareerTest: React.FC = () => {
               🚀 あなたに向いている業務 🚀
             </h2>
             
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl sm:rounded-2xl p-4 sm:p-6 border-2 border-blue-200">
                 <h3 className="text-lg sm:text-xl font-bold text-blue-800 mb-4 sm:mb-6 flex items-center">
                   <span className="mr-2">💼</span>
