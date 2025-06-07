@@ -505,7 +505,7 @@ const VACareerTest: React.FC = () => {
 
   if (currentStep === 'start') {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-50 to-blue-100 flex items-center justify-center p-3 sm:p-4 lg:p-8">
+      <div className="min-h-screen flex items-center justify-center p-3 sm:p-4 lg:p-8">
         <div className="bg-white rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 lg:p-8 xl:p-12 max-w-sm sm:max-w-lg lg:max-w-4xl xl:max-w-6xl w-full relative overflow-hidden">
           {/* 背景装飾 - レスポンシブサイズ */}
           <div className="absolute top-0 right-0 w-20 h-20 sm:w-24 sm:h-24 lg:w-32 lg:h-32 bg-gradient-to-bl from-yellow-200 to-orange-200 rounded-full opacity-20 -translate-y-10 translate-x-10 sm:-translate-y-12 sm:translate-x-12 lg:-translate-y-16 lg:translate-x-16"></div>
@@ -585,7 +585,7 @@ const VACareerTest: React.FC = () => {
     const progress = ((currentQuestion + 1) / questions.length) * 100;
 
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-50 to-blue-100 p-3 sm:p-4 lg:p-8">
+      <div className="min-h-screen p-3 sm:p-4 lg:p-8">
         <div className="max-w-sm sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl mx-auto">
           {/* プログレスバー - レスポンシブ */}
           <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-4 sm:mb-6 shadow-lg border border-purple-100">
@@ -701,7 +701,7 @@ const VACareerTest: React.FC = () => {
     const MainIcon = mainJobType.icon;
 
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-50 to-blue-100 p-3 sm:p-4 lg:p-8">
+      <div className="min-h-screen p-3 sm:p-4 lg:p-8">
         <div className="max-w-sm sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl mx-auto">
           {/* 結果ヘッダー - レスポンシブ */}
           <div className="bg-white rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 relative overflow-hidden border border-purple-100">
